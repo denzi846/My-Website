@@ -524,6 +524,412 @@
   </div>
 
 </section>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #252525;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    font-size: 40px;
+    color: #16a34a;
+    margin-right: 7px;
+}
+
+.logo span {
+    color: #159447;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.circle-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #20b94b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+/* HERO */
+.hero {
+    background: #effbf2;
+    margin: 0 15px;
+    border-radius: 35px 35px 0 0;
+    padding: 45px 25px 70px;
+    overflow: hidden;
+}
+
+/* STATS AREA */
+.stats {
+    position: relative;
+    max-width: 600px;
+    height: 410px;
+    margin: auto;
+}
+
+/* CIRCLE */
+.circle {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    border: 2px solid #9be5aa;
+    border-radius: 50%;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.circle::after {
+    content: "";
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    border: 2px solid #9be5aa;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* PERSON */
+.person {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    font-size: 170px;
+    z-index: 2;
+}
+
+/* STAT BOX */
+.stat {
+    position: absolute;
+    width: 145px;
+    min-height: 95px;
+    background: white;
+    border: 1px solid #c8f5d1;
+    border-radius: 10px;
+    padding: 15px 8px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.06);
+    z-index: 3;
+}
+
+.stat strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.stat small {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.stat1 {
+    left: 0;
+    top: 25px;
+}
+
+.stat2 {
+    right: 0;
+    top: 25px;
+}
+
+.stat3 {
+    left: 0;
+    top: 220px;
+}
+
+.stat4 {
+    right: 0;
+    top: 220px;
+}
+
+/* MAIN TEXT */
+.content {
+    margin-top: 35px;
+}
+
+.content h1 {
+    font-size: 50px;
+    line-height: 1.12;
+    margin-bottom: 35px;
+    font-weight: 800;
+}
+
+.content h1 span {
+    color: #159447;
+}
+
+.subtitle {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 19px;
+    line-height: 1.9;
+    color: #666;
+}
+
+/* BUTTON */
+.main-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 16px 30px;
+    background: #159447;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    transform: translateY(-4px);
+    background: #0c7735;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    width: 70px;
+    height: 70px;
+    background: #20c95a;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    text-decoration: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    z-index: 10;
+    animation: float 2s ease-in-out infinite;
+}
+
+/* ANIMATION */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* MOBILE */
+@media(max-width: 600px) {
+
+    .navbar {
+        padding: 0 18px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo-icon {
+        font-size: 32px;
+    }
+
+    .circle-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .hero {
+        margin: 0 8px;
+        padding: 30px 20px 60px;
+    }
+
+    .stats {
+        height: 360px;
+    }
+
+    .circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .circle::after {
+        width: 240px;
+        height: 240px;
+    }
+
+    .person {
+        font-size: 135px;
+    }
+
+    .stat {
+        width: 125px;
+        min-height: 85px;
+        padding: 12px 5px;
+    }
+
+    .stat strong {
+        font-size: 17px;
+    }
+
+    .stat small {
+        font-size: 12px;
+    }
+
+    .stat1,
+    .stat2 {
+        top: 20px;
+    }
+
+    .stat3,
+    .stat4 {
+        top: 195px;
+    }
+
+    .content h1 {
+        font-size: 43px;
+    }
+
+    .subtitle {
+        font-size: 21px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .whatsapp {
+        width: 65px;
+        height: 65px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">
+        <div class="logo-icon">↗️</div>
+        <div>Nishant<span>Web</span></div>
+    </div>
+
+    <div class="nav-buttons">
+        <div class="circle-btn">☎️</div>
+        <div class="circle-btn">☰</div>
+    </div>
+
+</nav>
+
+
+<!-- HERO -->
+<section class="hero">
+
+    <!-- STATS -->
+    <div class="stats">
+
+        <div class="circle"></div>
+
+        <div class="person">👨🏻‍💻</div>
+
+        <div class="stat stat1">
+            <strong>300+</strong>
+            <small>Happy Clients</small>
+        </div>
+
+        <div class="stat stat2">
+            <strong>400+</strong>
+            <small>Successful Projects</small>
+        </div>
+
+        <div class="stat stat3">
+            <strong>7 Years</strong>
+            <small>Experience</small>
+        </div>
+
+        <div class="stat stat4">
+            <strong>80+</strong>
+            <small>Team Members</small>
+        </div>
+
+    </div>
+
+
+    <!-- TEXT -->
+    <div class="content">
+
+        <h1>
+            Website Development
+            <span>And Design</span>
+            Company In Nepal
+        </h1>
+
+        <p class="subtitle">
+            Highly functional and visually appealing
+            website designed to meet your needs.
+        </p>
+
+        <p class="description">
+            Building a great website shouldn't feel complicated.
+            We create modern, responsive and professional
+            websites that help you grow online.
+        </p>
+
+        <a href="#contact" class="main-btn">
+            Let's Connect →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- WHATSAPP -->
+<a class="whatsapp"
+   href="https://wa.me/9824703692"
+   target="_blank">
+    ☎️
+</a>
 
 </body</html>
