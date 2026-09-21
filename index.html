@@ -1,1774 +1,1819 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My Website</title>
-    <style> body {
-    background-color:lightblue;
-    text-align:center;
-        font-family:Arial;
-        }
-        h1{
-            color:gold;
-            font-size:40px;
-            text-shadow:2px 2px 4px gray;
-        }
-        
-        .card{
-            background-color:white;
-            width:350px;
-            margin:50px auto;
-            padding:25px;
-            border-radius:15px;
-            box-shadow:0 4px 15px gray;
-        }
-        button{
-            background-color:#D4AF37;
-            color:white
-                padding:12px 25px;
-            border:none;
-            border-radius:8px;
-            font-size:16pz;
-            cursor:pointer;
-        }
-        
-        img{
-            border-radius:50%;
-            border:4px solid darkblue;
-        }
-    h1{
-    color:#D4AF37;
-        font-size:40px;
-        text-shadow:2px 2px 4px gray;
-        }
-    h2{
-    color:green;
-        }
-    p{
-    font-size:20px;
-        }
-    
-    button{
-    background-color:green;
-    color:white;
-    padding:12px 25px;
-    border:none;
-    border-radius:8px;
-        }
-        .project{
-            background-color:#f2f2f2;
-            margin:15px 0;
-            padding:15px;
-            border-radius:10px;
-        }
-        @media(max-width:600px){
-            .card{
-            width:85%;
-        }
-        
-        h1{
-            font-size:32px;
-        }
-        }
-        
-        html{
-            scroll-behavior:smooth;
-        }
-        button:hover{
-            transform:scale(1.05);
-            cursor:pointer;
-        }
-        .card{
-            animation:fadein 1s ease-in;
-        }
-        
-        @keyflames fadeln{
-            form
-            {
-                opacity:0;
-                transform:translateY(20px);
-            }
-            to{
-                opacity:1;
-                transform:translateY(0);
-            }
-        }
-        
-        
-    </style>
-    
-    ul{
-    list-style:none;
-    padding:0;
-    }
-    
-    li{
-    background-color:lightgreen;
-    margin:10px;
-    padding:10px;
-    border-radius:8px;
-    font-size18px;
-    }
-</head>
 
-<body>
-    <nav>
-    <a href="#home">Home</a>
-    <a href="about">About</a>
-    <a href="projects">Projects</a>
-    <a href="contact">Contact</a>
-    </nav>
-    
-    <div class="card"><
-    
-    <img src=""C:\Users\admin\Documents\WhatsApp Image 2026-09-20 at 9.00.39 AM.jpeg"alt="my photo">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h1 id="home">Hello,I am Nishant Danuwar!</h1>
+<title>Nepal Growth | Nishant Singh Danuwar</title>
 
-<p>I am a computer Science Student.</p>
-    <h2 id="about">About Me</h2>
-    
-    <p> My name is Nishant.
-    I am learning Web Development.
-    </p>
-    
-
-<h2 id="projects">My Projects</h2>ss
-        <div class="project">
-        <h3>My personal websites</h3>
-        <p>A websites I created using HTML and CSS.</p>
-            
-        <div class="project">
-                    <h3>My first web project</h3>
-            <p>I am learning how to build websites.</p>
-            </div>
-        
-        <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        s</ul>
-    
-    <button>onclick="alert('Thanks for visiting my websites!')">
-    visit again
-    </button>
-            <h2 id="contact">Contact ME</h2>
-        
-        <input type="text" placeholder="Nishant Singh">
-        <br><br>
-        
-        <input type="email" placeholder="denzidanuwar@gmail.com">
-        <br><br>
-        
-        <textarea placeholder="Your message"></textarea>
-        <br><br>
-            <button>Let's connect</button>
-            <footer>
-                <p>© 2026 Nishant. All rights reserved.</p>
-            </footer>
-        
-        <button>I want to contact you about web development.
-        Hello,I want to know more about your services.
-        </button>
-    </div>
-    <h2> My social media</h2>
-    
-    <a
-       href="https://www.youtube.com/@denziofficial07"target="_blank">
-        <button>youtube</button></a>
-    
-    <br><br>
-    
-    <a href="https://www.facebook.com/share/1CH4pQKGg7/"target="_blank"><button>facebook</button>
-        </a>
-        <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: #f8faff;
-      color: #17213c;
-    }
-
-    /* NAVBAR */
-    nav {
-      height: 75px;
-      background: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 7%;
-      box-shadow: 0 2px 15px #ddd;
-    }
-
-    .logo {
-      font-size: 28px;
-      font-weight: bold;
-      color: #174caa;
-    }
-
-    .menu {
-      font-size: 30px;
-      cursor: pointer;
-    }
-
-    /* HERO */
-    .hero {
-      min-height: 650px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      padding: 60px 8%;
-      background: white;
-    }
-
-    .hero-text {
-      max-width: 550px;
-    }
-
-    .hero-text h1 {
-      font-size: 55px;
-      margin-bottom: 20px;
-    }
-
-    .hero-text h1 span {
-      color: #159447;
-    }
-
-    .hero-text p {
-      font-size: 19px;
-      color: #777;
-      line-height: 1.7;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 17px 35px;
-      border-radius: 40px;
-      background: linear-gradient(90deg,#2547d9,#0ba94b);
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 17px;
-    }
-
-    /* HERO IMAGE */
-    .hero-image {
-      position: relative;
-      width: 400px;
-      height: 400px;
-      border-radius: 50%;
-      background: #edf5ff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .hero-image img {
-      width: 90%;
-      border-radius: 50%;
-    }
-
-    .stat {
-      position: absolute;
-      background: white;
-      padding: 20px 28px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px #ddd;
-      font-weight: bold;
-    }
-
-    .stat.one {
-      top: 30px;
-      right: -80px;
-    }
-
-    .stat.two {
-      bottom: 30px;
-      left: -80px;
-    }
-
-    /* COURSE */
-    .courses {
-      padding: 80px 7%;
-      text-align: center;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 12px 25px;
-      border: 2px solid #ccd5e5;
-      border-radius: 30px;
-      color: #2852a5;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    .courses h2 {
-      font-size: 45px;
-      margin-bottom: 40px;
-    }
-
-    .course-card {
-      max-width: 630px;
-      margin: auto;
-      background: white;
-      border-radius: 25px;
-      overflow: hidden;
-      box-shadow: 0 8px 30px #ddd;
-      transition: 0.3s;
-    }
-
-    .course-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 20px 40px #ccc;
-    }
-
-    .course-card img {
-      width: 100%;
-      display: block;
-    }
-
-    .course-content {
-      padding: 25px;
-      text-align: left;
-    }
-
-    .course-content h3 {
-      font-size: 25px;
-      margin-bottom: 15px;
-    }
-
-    /* SOCIAL */
-    .social {
-      padding: 80px 7%;
-      background: white;
-      text-align: center;
-    }
-
-    .social h2 {
-      font-size: 40px;
-      margin-bottom: 40px;
-    }
-
-    .social-container {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      flex-wrap: wrap;
-    }
-
-    .social-card {
-      width: 260px;
-      padding: 35px 20px;
-      border-radius: 20px;
-      background: white;
-      box-shadow: 0 5px 25px #ddd;
-      transition: 0.3s;
-    }
-
-    .social-card:hover {
-      transform: translateY(-8px);
-    }
-
-    .social-icon {
-      font-size: 55px;
-      margin-bottom: 20px;
-    }
-
-    .social-card h3 {
-      margin-bottom: 25px;
-    }
-
-    .join {
-      display: inline-block;
-      padding: 13px 35px;
-      border-radius: 12px;
-      color: white;
-      background: linear-gradient(90deg,#4b36e8,#08aeea);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* MOBILE */
-    @media(max-width: 700px) {
-
-      .hero {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .hero-text h1 {
-        font-size: 38px;
-      }
-
-      .hero-image {
-        width: 300px;
-        height: 300px;
-        margin-top: 50px;
-      }
-
-      .stat.one {
-        right: -20px;
-      }
-
-      .stat.two {
-        left: -20px;
-      }
-
-      .courses h2 {
-        font-size: 32px;
-      }
-
-      .social h2 {
-        font-size: 30px;
-      }
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <i class="fa-brands fa-telegram" style="font-size: 70px;"></i>
-
-<h3>Telegram Group</h3>
-
-<a href="#" class="join">Join Now →</a>
-  </style>
-</head>
-
-<body>
-
-<nav>
-  <div class="logo">My Growth</div>
-  <div class="menu">☰</div>
-</nav>
-
-<section class="hero">
-
-  <div class="hero-text">
-    <h1>Learn. <span>Grow.</span> Succeed.</h1>
-
-    <p>
-      Learn useful digital skills and build your future
-      with practical knowledge.
-    </p>
-
-    <a href="#courses" class="btn">
-      Explore Courses →
-    </a>
-  </div>
-
-  <div class="hero-image">
-
-    <img src="your-image.png">
-
-    <div class="stat one">
-      👥 10K+<br>
-      <small>Active Students</small>
-    </div>
-
-    <div class="stat two">
-      ⭐ 4.9<br>
-      <small>Average Rating</small>
-    </div>
-
-  </div>
-
-</section>
-
-
-<section class="courses" id="courses">
-
-  <div class="tag">📚 COURSE CATALOG</div>
-
-  <h2>Most Demanding Courses</h2>
-
-  <div class="course-card">
-
-    <img src="youtube-course.jpg">
-
-    <div class="course-content">
-
-      <h3>YouTube Mastery</h3>
-
-      <a href="#" class="join">
-        View Course →
-      </a>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<section class="social">
-
-  <h2>Join Our Social Media Handles</h2>
-
-  <div class="social-container">
-
-    <div class="social-card">
-      <div class="social-icon">🟢</div>
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-     alt="WhatsApp"
-     width="70">
-      <h3>WhatsApp Group</h3>
-      <a href="#" class="join">Join Now →</a>
-    </div>
-
-    <div class="social-card">
-      <div class="social-icon">📸</div>
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
-     alt="Instagram"
-     width="70">
-      <h3>Instagram</h3>
-      <a href="#" class="join">Join Now →</a>
-    </div>
-
-    <div class="social-card">
-      <div class="social-icon">🔵</div>
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
-     alt="Telegram"
-     width="70">
-      <h3>Telegram</h3>
-      <a href="#" class="join">Join Now →</a>
-    </div>
-
-  </div>
-
-</section>
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* =========================
+   RESET
+========================= */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: white;
-    color: #252525;
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f9ff;
+  color:#12233f;
+  line-height:1.6;
 }
 
-/* NAVBAR */
-.navbar {
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
-    background: white;
+a{
+  text-decoration:none;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: bold;
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:white;
+  box-shadow:0 4px 20px rgba(0,0,0,.08);
 }
 
-.logo-icon {
-    font-size: 40px;
-    color: #16a34a;
-    margin-right: 7px;
+nav{
+  max-width:1200px;
+  margin:auto;
+  padding:16px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
 }
 
-.logo span {
-    color: #159447;
+.logo{
+  color:#1463ff;
+  font-size:25px;
+  font-weight:800;
 }
 
-.nav-buttons {
-    display: flex;
-    gap: 12px;
+.creator{
+  color:#68778e;
+  font-size:12px;
+  margin-top:2px;
 }
 
-.circle-btn {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    background: #20b94b;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
+.menu{
+  display:flex;
+  gap:18px;
+  align-items:center;
+  flex-wrap:wrap;
 }
 
-/* HERO */
-.hero {
-    background: #effbf2;
-    margin: 0 15px;
-    border-radius: 35px 35px 0 0;
-    padding: 45px 25px 70px;
-    overflow: hidden;
+.menu a{
+  color:#12233f;
+  font-weight:600;
 }
 
-/* STATS AREA */
-.stats {
-    position: relative;
-    max-width: 600px;
-    height: 410px;
-    margin: auto;
+.menu a:hover{
+  color:#1463ff;
 }
 
-/* CIRCLE */
-.circle {
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    border: 2px solid #9be5aa;
-    border-radius: 50%;
-    left: 50%;
-    top: 20px;
-    transform: translateX(-50%);
+.signup{
+  background:#1463ff;
+  color:white!important;
+  padding:9px 15px;
+  border-radius:10px;
 }
 
-.circle::after {
-    content: "";
-    position: absolute;
-    width: 290px;
-    height: 290px;
-    border: 2px solid #9be5aa;
-    border-radius: 50%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:70px 20px;
+  background:linear-gradient(135deg,#edf5ff,#ffffff);
 }
 
-/* PERSON */
-.person {
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-    transform: translateX(-50%);
-    font-size: 170px;
-    z-index: 2;
+.hero-content{
+  max-width:850px;
 }
 
-/* STAT BOX */
-.stat {
-    position: absolute;
-    width: 145px;
-    min-height: 95px;
-    background: white;
-    border: 1px solid #c8f5d1;
-    border-radius: 10px;
-    padding: 15px 8px;
-    text-align: center;
-    box-shadow: 0 5px 18px rgba(0,0,0,0.06);
-    z-index: 3;
+.badge{
+  display:inline-block;
+  background:#e3edff;
+  color:#1463ff;
+  padding:8px 17px;
+  border-radius:30px;
+  font-weight:700;
+  margin-bottom:20px;
 }
 
-.stat strong {
-    display: block;
-    font-size: 20px;
-    margin-bottom: 8px;
+.hero h1{
+  font-size:60px;
+  line-height:1.1;
+  margin-bottom:20px;
 }
 
-.stat small {
-    color: #777;
-    font-size: 14px;
-    line-height: 1.4;
+.hero h1 span{
+  color:#1463ff;
 }
 
-.stat1 {
-    left: 0;
-    top: 25px;
+.hero p{
+  max-width:680px;
+  margin:auto;
+  color:#68778e;
+  font-size:18px;
 }
 
-.stat2 {
-    right: 0;
-    top: 25px;
+.buttons{
+  margin-top:30px;
 }
 
-.stat3 {
-    left: 0;
-    top: 220px;
+.btn{
+  display:inline-block;
+  padding:13px 23px;
+  border-radius:11px;
+  font-weight:700;
+  margin:5px;
+  border:none;
+  cursor:pointer;
+  font-size:15px;
+  transition:.3s;
 }
 
-.stat4 {
-    right: 0;
-    top: 220px;
+.btn:hover{
+  transform:translateY(-3px);
 }
 
-/* MAIN TEXT */
-.content {
-    margin-top: 35px;
+.primary{
+  background:#1463ff;
+  color:white;
 }
 
-.content h1 {
-    font-size: 50px;
-    line-height: 1.12;
-    margin-bottom: 35px;
-    font-weight: 800;
+.secondary{
+  background:white;
+  color:#1463ff;
+  border:2px solid #1463ff;
 }
 
-.content h1 span {
-    color: #159447;
+.buy{
+  background:#101c30;
+  color:white;
 }
 
-.subtitle {
-    font-size: 25px;
-    line-height: 1.5;
-    color: #555;
-    font-weight: bold;
-    margin-bottom: 25px;
+
+/* =========================
+   GENERAL
+========================= */
+
+section{
+  padding:80px 20px;
 }
 
-.description {
-    font-size: 19px;
-    line-height: 1.9;
-    color: #666;
+.container{
+  max-width:1100px;
+  margin:auto;
 }
 
-/* BUTTON */
-.main-btn {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 16px 30px;
-    background: #159447;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: 0.3s;
+.title{
+  text-align:center;
+  margin-bottom:45px;
 }
 
-.main-btn:hover {
-    transform: translateY(-4px);
-    background: #0c7735;
+.title h2{
+  font-size:38px;
+  margin-bottom:10px;
 }
 
-/* WHATSAPP */
-.whatsapp {
-    position: fixed;
-    right: 20px;
-    bottom: 25px;
-    width: 70px;
-    height: 70px;
-    background: #20c95a;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 38px;
-    text-decoration: none;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    z-index: 10;
-    animation: float 2s ease-in-out infinite;
+.title p{
+  color:#68778e;
 }
 
-/* ANIMATION */
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
 
-    50% {
-        transform: translateY(-10px);
-    }
+/* =========================
+   EXPLORE
+========================= */
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:22px;
 }
 
-/* MOBILE */
-@media(max-width: 600px) {
-
-    .navbar {
-        padding: 0 18px;
-    }
-
-    .logo {
-        font-size: 20px;
-    }
-
-    .logo-icon {
-        font-size: 32px;
-    }
-
-    .circle-btn {
-        width: 45px;
-        height: 45px;
-        font-size: 20px;
-    }
-
-    .hero {
-        margin: 0 8px;
-        padding: 30px 20px 60px;
-    }
-
-    .stats {
-        height: 360px;
-    }
-
-    .circle {
-        width: 300px;
-        height: 300px;
-    }
-
-    .circle::after {
-        width: 240px;
-        height: 240px;
-    }
-
-    .person {
-        font-size: 135px;
-    }
-
-    .stat {
-        width: 125px;
-        min-height: 85px;
-        padding: 12px 5px;
-    }
-
-    .stat strong {
-        font-size: 17px;
-    }
-
-    .stat small {
-        font-size: 12px;
-    }
-
-    .stat1,
-    .stat2 {
-        top: 20px;
-    }
-
-    .stat3,
-    .stat4 {
-        top: 195px;
-    }
-
-    .content h1 {
-        font-size: 43px;
-    }
-
-    .subtitle {
-        font-size: 21px;
-    }
-
-    .description {
-        font-size: 17px;
-    }
-
-    .whatsapp {
-        width: 65px;
-        height: 65px;
-    }
+.feature{
+  background:white;
+  padding:30px 20px;
+  text-align:center;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  transition:.3s;
 }
+
+.feature:hover{
+  transform:translateY(-7px);
+}
+
+.icon{
+  font-size:42px;
+  margin-bottom:12px;
+}
+
+.feature h3{
+  margin-bottom:8px;
+}
+
+.feature p{
+  color:#68778e;
+}
+
+
+/* =========================
+   PLANS
+========================= */
+
+.plans{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.plan{
+  position:relative;
+  background:white;
+  padding:30px;
+  border-radius:22px;
+  box-shadow:0 10px 30px rgba(0,0,0,.07);
+  transition:.3s;
+}
+
+.plan:hover{
+  transform:translateY(-8px);
+}
+
+.plan h3{
+  font-size:25px;
+  color:#1463ff;
+}
+
+.price{
+  font-size:33px;
+  font-weight:800;
+  margin:12px 0;
+}
+
+.plan-description{
+  color:#68778e;
+}
+
+.plan ul{
+  list-style:none;
+  margin:20px 0;
+}
+
+.plan li{
+  margin:9px 0;
+}
+
+.popular{
+  border:2px solid #1463ff;
+}
+
+.popular-label{
+  position:absolute;
+  top:15px;
+  right:15px;
+  background:#1463ff;
+  color:white;
+  padding:5px 9px;
+  border-radius:20px;
+  font-size:10px;
+  font-weight:bold;
+}
+
+.plan-buttons{
+  margin-top:20px;
+}
+
+
+/* =========================
+   DETAILS
+========================= */
+
+.details-section{
+  background:white;
+}
+
+.detail-card{
+  max-width:900px;
+  margin:0 auto 30px;
+  padding:35px;
+  border-radius:22px;
+  background:#f5f9ff;
+  box-shadow:0 8px 25px rgba(0,0,0,.05);
+}
+
+.detail-card h3{
+  color:#1463ff;
+  font-size:27px;
+  margin-bottom:12px;
+}
+
+.detail-card p{
+  color:#68778e;
+  margin-bottom:12px;
+}
+
+.detail-list{
+  list-style:none;
+  margin:20px 0;
+}
+
+.detail-list li{
+  margin:9px 0;
+}
+
+
+/* =========================
+   LEARN BUILD GROW
+========================= */
+
+.info-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.info-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+}
+
+.info-card h3{
+  color:#1463ff;
+  margin-bottom:10px;
+}
+
+.info-card p{
+  color:#68778e;
+}
+
+
+/* =========================
+   LOGIN / SIGN UP
+========================= */
+
+.auth-section{
+  background:#eef5ff;
+}
+
+.auth-box{
+  max-width:450px;
+  margin:auto;
+  background:white;
+  padding:40px;
+  border-radius:24px;
+  box-shadow:0 12px 35px rgba(0,0,0,.08);
+}
+
+.auth-box h2{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.auth-box > p{
+  text-align:center;
+  color:#68778e;
+  margin-bottom:25px;
+}
+
+.auth-box input{
+  width:100%;
+  padding:14px;
+  margin:7px 0;
+  border:1px solid #dce5f0;
+  border-radius:10px;
+  outline:none;
+}
+
+.auth-box input:focus{
+  border-color:#1463ff;
+}
+
+.auth-box button{
+  width:100%;
+  margin-top:12px;
+}
+
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.dashboard{
+  background:white;
+}
+
+.dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.dashboard-card{
+  background:#f5f9ff;
+  padding:30px;
+  border-radius:20px;
+  border:1px solid #e0e9f4;
+}
+
+.dashboard-card h3{
+  color:#1463ff;
+  margin-bottom:10px;
+}
+
+.dashboard-card p{
+  color:#68778e;
+}
+
+
+/* =========================
+   PROFILE
+========================= */
+
+.profile-box{
+  max-width:650px;
+  margin:auto;
+  background:white;
+  padding:40px;
+  text-align:center;
+  border-radius:25px;
+  box-shadow:0 10px 35px rgba(0,0,0,.07);
+}
+
+.profile-icon{
+  font-size:65px;
+  margin-bottom:15px;
+}
+
+.profile-box p{
+  color:#68778e;
+  margin:8px 0;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact{
+  background:linear-gradient(135deg,#1463ff,#4f8cff);
+  color:white;
+  text-align:center;
+}
+
+.contact p{
+  max-width:650px;
+  margin:12px auto 25px;
+}
+
+.contact .secondary{
+  border:none;
+}
+
+
+/* =========================
+   DISCLOSURE
+========================= */
+
+.disclosure{
+  background:#eef4fc;
+}
+
+.disclosure p{
+  color:#68778e;
+  max-width:850px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+  background:#101c30;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+}
+
+footer h3{
+  font-size:23px;
+  margin-bottom:8px;
+}
+
+footer p{
+  color:#b8c3d3;
+  margin:6px 0;
+}
+
+.footer-links{
+  margin-top:15px;
+}
+
+.footer-links a{
+  color:white;
+  margin:0 8px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:900px){
+
+  nav{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .menu{
+    width:100%;
+  }
+
+  .features{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .plans{
+    grid-template-columns:1fr;
+  }
+
+  .info-grid{
+    grid-template-columns:1fr;
+  }
+
+  .dashboard-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero h1{
+    font-size:45px;
+  }
+
+}
+
+@media(max-width:550px){
+
+  .features{
+    grid-template-columns:1fr;
+  }
+
+  .hero h1{
+    font-size:36px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  .menu{
+    gap:10px;
+  }
+
+  .menu a{
+    font-size:13px;
+  }
+
+  .detail-card,
+  .auth-box,
+  .profile-box{
+    padding:25px 18px;
+  }
+
+}
+
 </style>
+
 </head>
+
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar">
 
-    <div class="logo">
-        <div class="logo-icon">↗️</div>
-        <div>Nishant<span>Web</span></div>
-    </div>
+<!-- =========================
+     HEADER
+========================= -->
 
-    <div class="nav-buttons">
-        <div class="circle-btn">☎️</div>
-        <div class="circle-btn">☰</div>
-    </div>
+<header>
 
-</nav>
-
-
-<!-- HERO -->
-<section class="hero">
-
-    <!-- STATS -->
-    <div class="stats">
-
-        <div class="circle"></div>
-
-        <div class="person">👨🏻‍💻</div>
-
-        <div class="stat stat1">
-            <strong>300+</strong>
-            <small>Happy Clients</small>
-        </div>
-
-        <div class="stat stat2">
-            <strong>400+</strong>
-            <small>Successful Projects</small>
-        </div>
-
-        <div class="stat stat3">
-            <strong>7 Years</strong>
-            <small>Experience</small>
-        </div>
-
-        <div class="stat stat4">
-            <strong>80+</strong>
-            <small>Team Members</small>
-        </div>
-
-    </div>
-
-
-    <!-- TEXT -->
-    <div class="content">
-
-        <h1>
-            Website Development
-            <span>And Design</span>
-            Company In Nepal
-        </h1>
-
-        <p class="subtitle">
-            Highly functional and visually appealing
-            website designed to meet your needs.
-        </p>
-
-        <p class="description">
-            Building a great website shouldn't feel complicated.
-            We create modern, responsive and professional
-            websites that help you grow online.
-        </p>
-
-        <a href="#contact" class="main-btn">
-            Let's Connect →
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- WHATSAPP -->
-<a class="whatsapp"
-   href="https://wa.me/9824703692"
-   target="_blank">
-    ☎️
-</a>
-    /* PORTFOLIO SECTION */
-.portfolio {
-    padding: 70px 20px;
-    background: #f5f5f5;
-}
-
-.portfolio-title {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.portfolio-title h2 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-
-.portfolio-title p {
-    color: #777;
-    font-size: 18px;
-}
-
-.project-card {
-    max-width: 900px;
-    height: 430px;
-    margin: 0 auto 35px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 25px;
-    background: #111;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    transition: 0.4s;
-}
-
-.project-card:hover {
-    transform: translateY(-8px);
-}
-
-.project-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.5s;
-}
-
-.project-card:hover img {
-    transform: scale(1.05);
-}
-
-.project-overlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 40px 30px 30px;
-    color: white;
-    background: linear-gradient(
-        transparent,
-        rgba(0,0,0,0.9)
-    );
-}
-
-.project-overlay h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
-}
-
-.project-overlay p {
-    font-size: 16px;
-    margin-bottom: 18px;
-}
-
-.project-btn {
-    display: inline-block;
-    padding: 10px 22px;
-    border-radius: 25px;
-    background: white;
-    color: #111;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* MOBILE */
-@media(max-width:600px) {
-
-    .portfolio-title h2 {
-        font-size: 32px;
-    }
-
-    .project-card {
-        height: 300px;
-        border-radius: 20px;
-    }
-
-    .project-overlay h3 {
-        font-size: 24px;
-    }
-
-    .project-overlay p {
-        font-size: 14px;
-    }
-}
-    <!-- PORTFOLIO -->
-<section class="portfolio">
-
-    <div class="portfolio-title">
-        <h2>My Projects</h2>
-        <p>Explore some of my latest website designs</p>
-    </div>
-
-    <div class="project-card">
-
-        <img src="education.jpg" alt="Education Website">
-
-        <div class="project-overlay">
-            <h3>Education Website</h3>
-            <p>Modern and professional education website.</p>
-            <a href="#" class="project-btn">
-                View Project →
-            </a>
-        </div>
-
-    </div>
-
-
-    <div class="project-card">
-
-        <img src="fitness.jpg" alt="Fitness Website">
-        .project-overlay {
-    background-image: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80");
-    background-size: cover;
-    background-position: center;
-}
-
-        <div class="project-overlay">
-            <h3>Fitness Website</h3>
-            <p>Modern fitness and gym website design.</p>
-            <a href="#" class="project-btn">
-                View Project →
-            </a>
-        </div>
-
-    </div>
-
-
-    <div class="project-card">
-
-        <img src="business.jpg" alt="Business Website">
-
-        <div class="project-overlay">
-            <h3>Business Website</h3>
-            <p>Professional business website design.</p>
-            <a href="#" class="project-btn">
-                View Project →
-            </a>
-        </div>
-
-    </div>
-
-</section>
-    <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    color: #171717;
-    background: #f5f5f5;
-}
-
-/* NAVBAR */
-nav {
-    height: 75px;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 7%;
-    border-bottom: 1px solid #ddd;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.logo span {
-    color: #159447;
-}
-
-.menu {
-    font-size: 30px;
-    cursor: pointer;
-}
-
-/* HERO */
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 560px;
-    background: #f7dd65;
-}
-
-.hero-text {
-    padding: 80px 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.small-title {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-}
-
-.hero h1 {
-    font-size: 55px;
-    line-height: 1.05;
-    margin-bottom: 25px;
-}
-
-.hero p {
-    font-size: 17px;
-    line-height: 1.7;
-    color: #444;
-    margin-bottom: 25px;
-}
-
-.btn {
-    width: fit-content;
-    padding: 14px 28px;
-    background: #159447;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: .3s;
-}
-
-.btn:hover {
-    transform: translateY(-4px);
-}
-
-/* HERO IMAGE */
-.hero-image {
-    min-height: 560px;
-    background-image:
-        linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.05)),
-        url("hero.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* SERVICES */
-.services {
-    background: white;
-    padding: 75px 7%;
-}
-
-.section-title {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 45px;
-}
-
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.service-card {
-    border: 1px solid #222;
-    padding: 35px;
-    min-height: 190px;
-    transition: .3s;
-    background: white;
-}
-
-.service-card:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 12px 25px rgba(0,0,0,.12);
-}
-
-.icon {
-    font-size: 38px;
-    margin-bottom: 15px;
-}
-
-.service-card h3 {
-    font-size: 23px;
-    margin-bottom: 12px;
-}
-
-.service-card p {
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-.learn {
-    color: #159447;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-/* PROJECTS */
-.projects {
-    padding: 75px 7%;
-    background: #a8dcb8;
-}
-
-.projects .section-title {
-    margin-bottom: 40px;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-}
-
-.project {
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    background: white;
-    position: relative;
-    box-shadow: 0 8px 20px rgba(0,0,0,.15);
-}
-
-.project img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: .5s;
-}
-
-.project:hover img {
-    transform: scale(1.08);
-}
-
-.project-info {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 25px;
-    color: white;
-    background: linear-gradient(transparent,rgba(0,0,0,.85));
-}
-
-.project-info h3 {
-    font-size: 25px;
-}
-
-/* CONTACT */
-.contact {
-    padding: 80px 20px;
-    text-align: center;
-    background: white;
-}
-
-.contact h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.contact p {
-    color: #666;
-    margin-bottom: 25px;
-}
-
-/* WHATSAPP */
-.whatsapp {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    background: #20c95a;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-    text-decoration: none;
-    box-shadow: 0 5px 20px #aaa;
-    z-index: 10;
-    animation: float 2s infinite;
-}
-
-@keyframes float {
-    0%,100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-8px);
-    }
-}
-
-/* FOOTER */
-footer {
-    background: #171717;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
-
-/* MOBILE */
-@media(max-width:700px) {
-
-    nav {
-        padding: 0 20px;
-    }
-
-    .hero {
-        grid-template-columns: 1fr;
-    }
-
-    .hero-text {
-        padding: 55px 25px;
-    }
-
-    .hero h1 {
-        font-size: 42px;
-    }
-
-    .hero-image {
-        min-height: 330px;
-    }
-
-    .services {
-        padding: 55px 20px;
-    }
-
-    .section-title {
-        font-size: 32px;
-    }
-
-    .service-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .service-card {
-        padding: 25px;
-    }
-
-    .projects {
-        padding: 55px 20px;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .project {
-        height: 260px;
-    }
-
-    .contact h2 {
-        font-size: 32px;
-    }
-}
-</style>
-</head>
-
-<body>
-
-<!-- NAVBAR -->
 <nav>
-    <div class="logo">
-        Nishant<span>Digital</span>
-    </div>
 
-    <div class="menu">
-        ☰
-    </div>
-</nav>
+<div>
 
+<div class="logo">
+Nepal Growth
+</div>
 
-<!-- HERO -->
-<section class="hero">
-
-    <div class="hero-text">
-
-        <div class="small-title">
-            ACCELERATE YOUR DIGITAL GROWTH
-        </div>
-
-        <h1>
-            Premium Digital
-            Solutions Tailored
-            To Your Needs
-        </h1>
-
-        <p>
-            We create modern, responsive and
-            professional websites designed to help
-            you grow your online presence.
-        </p>
-
-        <a href="#services" class="btn">
-            GET STARTED
-        </a>
-
-    </div>
-
-    <div class="hero-image">
-    </div>
-
-</section>
-
-
-<!-- SERVICES -->
-<section class="services" id="services">
-
-    <h2 class="section-title">
-        Our Incredible Services
-    </h2>
-
-    <div class="service-grid">
-
-        <div class="service-card">
-            <div class="icon">✍️</div>
-
-            <h3>
-                Content Writing
-                and Marketing
-            </h3>
-
-            <p>
-                Creative content designed to
-                attract and engage your audience.
-            </p>
-
-            <a href="#" class="learn">
-                LEARN MORE →
-            </a>
-        </div>
-
-
-        <div class="service-card">
-            <div class="icon">🎨</div>
-
-            <h3>
-                Graphic Design
-            </h3>
-
-            <p>
-                Beautiful graphics and visuals
-                for your personal or business brand.
-            </p>
-
-            <a href="#" class="learn">
-                LEARN MORE →
-            </a>
-        </div>
-
-
-        <div class="service-card">
-            <div class="icon">✨</div>
-
-            <h3>
-                Brand Guideline
-                and Service
-            </h3>
-
-            <p>
-                Build a strong and consistent
-                identity for your brand.
-            </p>
-
-            <a href="#" class="learn">
-                LEARN MORE →
-            </a>
-        </div>
-
-
-        <div class="service-card">
-            <div class="icon">💻</div>
-
-            <h3>
-                Website Design &
-                Development
-            </h3>
-
-            <p>
-                Fast, responsive and modern
-                websites for your needs.
-            </p>
-
-            <a href="#" class="learn">
-                LEARN MORE →
-            </a>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- PROJECTS -->
-<section class="projects">
-
-    <h2 class="section-title">
-        Explore Incredible Projects
-    </h2>
-
-    <div class="project-grid">
-
-        <div class="project">
-
-            <img src="project1.jpg"
-                 alt="Project 1">
-
-            <div class="project-info">
-                <h3>
-                    Education Website
-                </h3>
-            </div>
-
-        </div>
-
-
-        <div class="project">
-
-            <img src="project2.jpg"
-                 alt="Project 2">
-
-            <div class="project-info">
-                <h3>
-                    Business Website
-                </h3>
-            </div>
-
-        </div>
-
-
-        <div class="project">
-
-            <img src="project3.jpg"
-                 alt="Project 3">
-
-            <div class="project-info">
-                <h3>
-                    Portfolio Website
-                </h3>
-            </div>
-
-        </div>
-
-
-        <div class="project">
-
-            <img src="project4.jpg"
-                 alt="Project 4">
-
-            <div class="project-info">
-                <h3>
-                    Modern Landing Page
-                </h3>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- CONTACT -->
-<section class="contact" id="contact">
-
-    <h2>Let's Build Something Great</h2>
-
-    <p>
-        Have an idea? Let's turn it into a professional website.
-    </p>
-
-    <a href="#" class="btn">
-        CONTACT ME →
-    </a>
-
-</section>
-
-
-<!-- WHATSAPP -->
-<a class="whatsapp"
-   href="https://wa.me/9824703692"
-   target="_blank">
-    ☎️
-</a>
-
-
-<!-- FOOTER -->
-<footer>
-    © 2026 Nishant Digital. All rights reserved.
-</footer>
-    .person {
-    font-size: 180px;
-    position: relative;
-    z-index: 2;
-    animation: personFloat 3s ease-in-out infinite;
-}
-
-@keyframes personFloat {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-}
-    <div class="project-grid">
-
-  <div class="project">
-    <div class="project-placeholder">
-      💻
-      <h3>Education Website</h3>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="project-placeholder">
-      🏢
-      <h3>Business Website</h3>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="project-placeholder">
-      🌐
-      <h3>Portfolio Website</h3>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="project-placeholder">
-      📱
-      <h3>Modern Landing Page</h3>
-    </div>
-  </div>
+<div class="creator">
+Created by <strong>Nishant Singh Danuwar</strong>
+</div>
 
 </div>
-    .project-placeholder {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #159447, #1647a5);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 70px;
-    text-align: center;
-}
 
-.project-placeholder h3 {
-    font-size: 25px;
-    margin-top: 15px;
-}
-<section class="projects">
 
-  <h2 class="section-title">Explore Incredible Projects</h2>
+<div class="menu">
 
-  <div class="project-grid">
+<a href="#home">Home</a>
 
-    <div class="project">
-      <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1000&q=80">
-      <div class="project-info">
-        <h3>Education Website</h3>
-      </div>
-    </div>
+<a href="#explore">Explore</a>
 
-    <div class="project">
-      <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80">
-      <div class="project-info">
-        <h3>Business Website</h3>
-      </div>
-    </div>
+<a href="#learn">Learn</a>
 
-    <div class="project">
-      <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=80">
-      <div class="project-info">
-        <h3>Portfolio Website</h3>
-      </div>
-    </div>
+<a href="#build">Build</a>
 
-    <div class="project">
-      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80">
-      <div class="project-info">
-        <h3>Modern Landing Page</h3>
-      </div>
-    </div>
+<a href="#grow">Grow</a>
 
-  </div>
+<a href="#plans">Plans</a>
+
+<a href="#login">Login</a>
+
+<a href="#signup" class="signup">
+Sign Up
+</a>
+
+</div>
+
+</nav>
+
+</header>
+
+
+<!-- =========================
+     HOME
+========================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<span class="badge">
+Digital Growth Platform
+</span>
+
+<h1>
+Grow Smarter.<br>
+<span>Build Your Future.</span>
+</h1>
+
+<p>
+Learn digital skills, build useful projects and explore
+digital opportunities with Nepal Growth.
+</p>
+
+<div class="buttons">
+
+<a href="#explore" class="btn primary">
+🔎 Explore Now
+</a>
+
+<a href="#signup" class="btn secondary">
+📝 Create Account
+</a>
+
+</div>
+
+</div>
 
 </section>
-    .project {
-    height: 300px;
-    overflow: hidden;
-    border-radius: 15px;
-    position: relative;
-    background: #ddd;
+
+
+<!-- =========================
+     EXPLORE
+========================= -->
+
+<section id="explore">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+🔎 Explore
+</h2>
+
+<p>
+Discover, learn, build and grow.
+</p>
+
+</div>
+
+
+<div class="features">
+
+
+<div class="feature">
+
+<div class="icon">
+🔎
+</div>
+
+<h3>
+Explore
+</h3>
+
+<p>
+Discover useful digital ideas and opportunities.
+</p>
+
+</div>
+
+
+<div class="feature" id="learn">
+
+<div class="icon">
+📚
+</div>
+
+<h3>
+Learn
+</h3>
+
+<p>
+Learn digital skills through useful resources and practice.
+</p>
+
+</div>
+
+
+<div class="feature" id="build">
+
+<div class="icon">
+💻
+</div>
+
+<h3>
+Build
+</h3>
+
+<p>
+Create websites and other useful digital projects.
+</p>
+
+</div>
+
+
+<div class="feature" id="grow">
+
+<div class="icon">
+📈
+</div>
+
+<h3>
+Grow
+</h3>
+
+<p>
+Improve your skills and continue your digital journey.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     PLANS
+========================= -->
+
+<section id="plans">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+💎 Our Plans
+</h2>
+
+<p>
+Choose a plan and see its complete details.
+</p>
+
+</div>
+
+
+<div class="plans">
+
+
+<!-- STARTER -->
+
+<div class="plan">
+
+<h3>
+🌱 Starter
+</h3>
+
+<div class="price">
+Rs. 499
+</div>
+
+<p class="plan-description">
+A beginner-friendly starting point.
+</p>
+
+<ul>
+
+<li>✓ Beginner resources</li>
+<li>✓ Learning materials</li>
+<li>✓ Basic guidance</li>
+<li>✓ Digital ideas</li>
+
+</ul>
+
+<a href="#starter-details" class="btn primary">
+View Details
+</a>
+
+<a href="#buy" class="btn buy">
+Buy Now
+</a>
+
+</div>
+
+
+<!-- GROWTH -->
+
+<div class="plan popular">
+
+<span class="popular-label">
+POPULAR
+</span>
+
+<h3>
+🚀 Growth
+</h3>
+
+<div class="price">
+Rs. 999
+</div>
+
+<p class="plan-description">
+For learners who want to build and improve.
+</p>
+
+<ul>
+
+<li>✓ Learning resources</li>
+<li>✓ Project ideas</li>
+<li>✓ Digital skills</li>
+<li>✓ Growth guidance</li>
+
+</ul>
+
+<a href="#growth-details" class="btn primary">
+View Details
+</a>
+
+<a href="#buy" class="btn buy">
+Buy Now
+</a>
+
+</div>
+
+
+<!-- PREMIUM -->
+
+<div class="plan">
+
+<h3>
+👑 Premium
+</h3>
+
+<div class="price">
+Rs. 1,999
+</div>
+
+<p class="plan-description">
+A broader digital learning experience.
+</p>
+
+<ul>
+
+<li>✓ Advanced resources</li>
+<li>✓ Project ideas</li>
+<li>✓ Digital opportunities</li>
+<li>✓ Growth guidance</li>
+
+</ul>
+
+<a href="#premium-details" class="btn primary">
+View Details
+</a>
+
+<a href="#buy" class="btn buy">
+Buy Now
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     STARTER DETAILS
+========================= -->
+
+<section class="details-section" id="starter-details">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+🌱 Starter Plan Details
+</h2>
+
+<p>
+Rs. 499
+</p>
+
+</div>
+
+
+<div class="detail-card">
+
+<h3>
+What is Starter?
+</h3>
+
+<p>
+Starter is designed for beginners who want to start
+learning digital skills and explore online opportunities.
+</p>
+
+<ul class="detail-list">
+
+<li>✓ Beginner-friendly resources</li>
+<li>✓ Digital learning materials</li>
+<li>✓ Basic project ideas</li>
+<li>✓ Digital skill guidance</li>
+<li>✓ Opportunity exploration</li>
+
+</ul>
+
+<a href="#buy" class="btn buy">
+Buy Starter — Rs. 499
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     GROWTH DETAILS
+========================= -->
+
+<section class="details-section" id="growth-details">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+🚀 Growth Plan Details
+</h2>
+
+<p>
+Rs. 999
+</p>
+
+</div>
+
+
+<div class="detail-card">
+
+<h3>
+What is Growth?
+</h3>
+
+<p>
+Growth is designed for learners who want to develop
+their skills and work on practical digital projects.
+</p>
+
+<ul class="detail-list">
+
+<li>✓ Digital learning resources</li>
+<li>✓ Project ideas</li>
+<li>✓ Website-building resources</li>
+<li>✓ Digital skill development</li>
+<li>✓ Growth guidance</li>
+<li>✓ Opportunity exploration</li>
+
+</ul>
+
+<a href="#buy" class="btn buy">
+Buy Growth — Rs. 999
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     PREMIUM DETAILS
+========================= -->
+
+<section class="details-section" id="premium-details">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+👑 Premium Plan Details
+</h2>
+
+<p>
+Rs. 1,999
+</p>
+
+</div>
+
+
+<div class="detail-card">
+
+<h3>
+What is Premium?
+</h3>
+
+<p>
+Premium provides a broader digital learning experience
+with additional resources and project ideas.
+</p>
+
+<ul class="detail-list">
+
+<li>✓ Advanced learning resources</li>
+<li>✓ Project ideas</li>
+<li>✓ Website development resources</li>
+<li>✓ Digital skills development</li>
+<li>✓ Opportunity exploration</li>
+<li>✓ Growth guidance</li>
+<li>✓ Additional learning resources</li>
+
+</ul>
+
+<a href="#buy" class="btn buy">
+Buy Premium — Rs. 1,999
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     LEARN
+========================= -->
+
+<section id="learn-section">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+📚 Learn
+</h2>
+
+<p>
+Build knowledge before building bigger projects.
+</p>
+
+</div>
+
+
+<div class="info-grid">
+
+<div class="info-card">
+
+<h3>
+🌐 Web Skills
+</h3>
+
+<p>
+Learn HTML, CSS and other basic web technologies.
+</p>
+
+</div>
+
+
+<div class="info-card">
+
+<h3>
+🤖 Digital Skills
+</h3>
+
+<p>
+Explore useful digital tools and improve your online skills.
+</p>
+
+</div>
+
+
+<div class="info-card">
+
+<h3>
+💡 Practical Learning
+</h3>
+
+<p>
+Practice what you learn by creating real projects.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     BUILD
+========================= -->
+
+<section id="build-section">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+💻 Build
+</h2>
+
+<p>
+Turn your ideas into digital projects.
+</p>
+
+</div>
+
+
+<div class="info-grid">
+
+<div class="info-card">
+
+<h3>
+🌐 Websites
+</h3>
+
+<p>
+Create personal websites, portfolio pages and landing pages.
+</p>
+
+</div>
+
+
+<div class="info-card">
+
+<h3>
+🎨 Design
+</h3>
+
+<p>
+Create clean and useful digital interfaces.
+</p>
+
+</div>
+
+
+<div class="info-card">
+
+<h3>
+🚀 Projects
+</h3>
+
+<p>
+Practice by turning your ideas into working projects.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     GROW
+========================= -->
+
+<section id="grow-section">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+📈 Grow
+</h2>
+
+<p>
+Keep improving one step at a time.
+</p>
+
+</div>
+
+
+<div class="info-grid">
+
+<div class="info-card">
+
+<h3>
+🎯 Goals
+</h3>
+
+<p>
+Set clear learning and project goals.
+</p>
+
+</div>
+
+
+<div class="info-card">
+
+<h3>
+📊 Progress
+</h3>
+
+<p>
+Track what you learn and what you build.
+</p>
+
+</div>
+
+
+<div class="info-card">
+
+<h3>
+🌟 Future
+</h3>
+
+<p>
+Keep developing skills that can help your future.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     LOGIN
+========================= -->
+
+<section class="auth-section" id="login">
+
+<div class="container">
+
+<div class="auth-box">
+
+<h2>
+🔐 Login
+</h2>
+
+<p>
+Welcome back to Nepal Growth.
+</p>
+
+<form>
+
+<input
+type="email"
+placeholder="Email address"
+required
+>
+
+<input
+type="password"
+placeholder="Password"
+required
+>
+
+<button
+type="submit"
+class="btn primary"
+>
+Login
+</button>
+
+</form>
+
+<p>
+Demo login form — real authentication requires a secure backend.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     SIGN UP
+========================= -->
+
+<section class="auth-section" id="signup">
+
+<div class="container">
+
+<div class="auth-box">
+
+<h2>
+📝 Sign Up
+</h2>
+
+<p>
+Create your Nepal Growth account.
+</p>
+
+<form>
+
+<input
+type="text"
+placeholder="Full name"
+required
+>
+
+<input
+type="email"
+placeholder="Email address"
+required
+>
+
+<input
+type="password"
+placeholder="Create password"
+required
+>
+
+<button
+type="submit"
+class="btn primary"
+>
+Create Account
+</button>
+
+</form>
+
+<p>
+Demo signup form — real accounts require secure authentication.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     DASHBOARD
+========================= -->
+
+<section class="dashboard" id="dashboard">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+📊 Dashboard
+</h2>
+
+<p>
+Your Nepal Growth control center.
+</p>
+
+</div>
+
+
+<div class="dashboard-grid">
+
+<div class="dashboard-card">
+
+<h3>
+👤 Profile
+</h3>
+
+<p>
+Creator: Nishant Singh Danuwar
+</p>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<h3>
+📚 Learning
+</h3>
+
+<p>
+Explore your learning resources and continue improving.
+</p>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<h3>
+📈 Progress
+</h3>
+
+<p>
+Keep track of your digital learning journey.
+</p>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<h3>
+💎 Plan
+</h3>
+
+<p>
+Choose a Starter, Growth or Premium plan.
+</p>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<h3>
+🛒 Purchases
+</h3>
+
+<p>
+Purchase history can be connected after a real payment system is added.
+</p>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<h3>
+⚙️ Settings
+</h3>
+
+<p>
+Account settings can be connected to a real backend.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     PROFILE
+========================= -->
+
+<section id="profile">
+
+<div class="container">
+
+<div class="profile-box">
+
+<div class="profile-icon">
+👤
+</div>
+
+<h2>
+Nishant Singh Danuwar
+</h2>
+
+<p>
+<strong>Creator of Nepal Growth</strong>
+</p>
+
+<p>
+Digital learning and growth platform.
+</p>
+
+<a href="#dashboard" class="btn primary">
+Open Dashboard
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     BUY / ORDER
+========================= -->
+
+<section id="buy">
+
+<div class="container">
+
+<div class="title">
+<h2>🛒 Place Your Order</h2>
+<p>Select your plan and enter your details.</p>
+</div>
+
+<div class="auth-box">
+
+<form onsubmit="placeOrder(event)">
+
+<input
+type="text"
+id="orderName"
+placeholder="Full Name"
+required
+>
+
+<input
+type="email"
+id="orderEmail"
+placeholder="Email Address"
+required
+>
+
+<input
+type="tel"
+id="orderPhone"
+placeholder="Phone Number"
+required
+>
+
+<select
+id="orderPlan"
+required
+style="width:100%;padding:14px;margin:7px 0;border:1px solid #dce5f0;border-radius:10px;"
+>
+
+<option value="">Select Plan</option>
+<option value="Starter - Rs. 499">
+Starter — Rs. 499
+</option>
+
+<option value="Growth - Rs. 999">
+Growth — Rs. 999
+</option>
+
+<option value="Premium - Rs. 1,999">
+Premium — Rs. 1,999
+</option>
+
+</select>
+
+<button
+type="submit"
+class="btn primary"
+>
+Continue
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     ORDER CONFIRMATION
+========================= -->
+
+<section id="order-confirmation"
+style="display:none;background:#eef5ff;">
+
+<div class="container">
+
+<div class="auth-box">
+
+<h2>✅ Order Received</h2>
+
+<p id="orderMessage"></p>
+
+<a href="#home" class="btn primary">
+Back to Home
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<script>
+
+function placeOrder(event){
+
+event.preventDefault();
+
+let name =
+document.getElementById("orderName").value;
+
+let email =
+document.getElementById("orderEmail").value;
+
+let phone =
+document.getElementById("orderPhone").value;
+
+let plan =
+document.getElementById("orderPlan").value;
+
+
+/* Show confirmation */
+
+document.getElementById("orderMessage").innerHTML =
+"Thank you <strong>" + name +
+"</strong>!<br><br>" +
+
+"Your selected plan is: <strong>" +
+plan +
+"</strong><br><br>" +
+
+"We received your order request.<br>" +
+
+"Email: " + email +
+"<br>Phone: " + phone;
+
+
+/* Hide order form */
+
+document.getElementById("buy").style.display =
+"none";
+
+
+/* Show confirmation */
+
+document.getElementById("order-confirmation").style.display =
+"block";
+
+
+/* Scroll to confirmation */
+
+document.getElementById("order-confirmation")
+.scrollIntoView({
+behavior:"smooth"
+});
+
 }
 
-.project img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: 0.5s;
-}
+</script>
+<!-- =========================
+     CONTACT
+========================= -->
 
-.project:hover img {
-    transform: scale(1.08);
-}
+<section class="contact" id="contact">
 
-</body</html>
+<div class="container">
+
+<h2>
+📱 Contact / WhatsApp
+</h2>
+
+<p>
+Have a question or want to connect with Nepal Growth?
+Contact us through WhatsApp.
+</p>
+
+<a
+href="https://wa.me/9824703692"
+target="_blank"
+class="btn secondary"
+>
+WhatsApp Me
+</a>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     AFFILIATE DISCLOSURE
+========================= -->
+
+<section class="disclosure" id="disclosure">
+
+<div class="container">
+
+<h2>
+📄 Affiliate Disclosure
+</h2>
+
+<p>
+Some links on Nepal Growth may be affiliate links.
+If you purchase something through an affiliate link,
+Nepal Growth may receive a commission at no additional
+cost to you.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+<h3>
+Nepal Growth
+</h3>
+
+<p>
+Created by <strong>Nishant Singh Danuwar</strong>
+</p>
+
+<p>
+Digital Growth & Learning Platform
+</p>
+
+<div class="footer-links">
+
+<a href="#home">Home</a>
+
+<a href="#plans">Plans</a>
+
+<a href="#dashboard">Dashboard</a>
+
+<a href="#profile">Profile</a>
+
+<a href="#contact">Contact</a>
+
+<a href="#disclosure">Disclosure</a>
+
+</div>
+
+<p>
+© 2026 Nepal Growth. All rights reserved.
+</p>
+
+</footer>
+
+
+</body>
+</html>
